@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const Wrapper = styled.main`
+  min-height: 100vh;
   line-height: 1.45;
   // background: rgba(121, 127, 176, 0.51);
 
@@ -106,11 +107,11 @@ const Wrapper = styled.main`
   }
 
   .moreDetail {
-    //border-top: 1px solid var(--grey-300);
+    border-top: 1px solid var(--grey-300);
     color: white;
     padding: 2.8em 0;
     text-align: center;
-    background: rgba(121, 127, 176, 0.51);
+    background: #f0f8f4;
   }
 
   .moreDetailContainer {
@@ -125,7 +126,7 @@ const Wrapper = styled.main`
   }
 
   .moreDetailContainer > p {
-    color: var(--grey-600);
+    color: var(--grey-400);
     font-size: var(--small-text);
   }
 
