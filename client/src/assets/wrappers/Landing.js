@@ -3,6 +3,10 @@ import styled from "styled-components";
 const Wrapper = styled.main`
   min-height: 100vh;
   line-height: 1.45;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: space-between;
   // background: rgba(121, 127, 176, 0.51);
 
   .intro {
@@ -144,7 +148,7 @@ const Wrapper = styled.main`
   }
 
   .footer {
-    padding: 1em 0.9em;
+    padding: .85em 0.9em;
     background-color: var(--primary-grey);
     color: white;
   }

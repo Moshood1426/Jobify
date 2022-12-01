@@ -111,25 +111,6 @@ const Landing = () => {
         </div>
       </section>
 
-      <section className="moreDetail" ref={moreDetailRef}>
-        <div className="moreDetailContainer">
-          <h3 ref={moreDetailTitleRef}>
-            UPDATE STATUS OF EVERY JOB APPLICATION
-          </h3>
-          <p ref={moreDetailSubtitleRef}>
-            The jobtify app allows you to keep track of all your job
-            applications. You can add a new job application details and stay
-            updated with each application by keeping track of its status.
-          </p>
-          <p
-            className="btn updateBtn"
-            onClick={() => navigate("/register", { replace: true })}
-            ref={moreDetailBtnRef}
-          >
-            Get Started
-          </p>
-        </div>
-      </section>
       <footer className="footer">
         <div className="footerContainer">
           <p className="footerTitle">
